@@ -48,7 +48,7 @@ jobs:
           push: true
           platforms: linux/amd64
           build-args: |
-            BASE_URL=/pdf/
+            BASE_URL=/tools/pdf/
             SIMPLE_MODE=true
             VITE_DEFAULT_LANGUAGE=zh
             SITE_URL=https://web.scutbot.cn
