@@ -50,7 +50,7 @@ jobs:
             BASE_URL=/pdf/
             SIMPLE_MODE=true
             VITE_DEFAULT_LANGUAGE=zh
-            SITE_URL=https://web.scutbot.cn/pdf/
+            SITE_URL=https://web.scutbot.cn
             VITE_BRAND_NAME=SCUTBOT PDF
           labels: ${{ steps.meta.outputs.labels }}
           tags: ${{ steps.meta.outputs.tags }}
